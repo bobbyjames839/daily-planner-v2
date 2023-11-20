@@ -1,0 +1,81 @@
+.tasks {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 3px solid rgb(170, 170, 170);
+  height: 55%;
+  background-color: rgb(209, 255, 209);
+}
+
+.tasks h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.task div {
+  background-color: black;
+  margin-left: -25px;
+  height: 28px;
+  width: 25px;
+  border: 1px solid rgb(209, 209, 209);
+  border-left: none;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+
+.task div .fa {
+  color: white;
+}
+
+.task input {
+  width: 75%;
+  height: 28px;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 5px;
+  padding: 0 25px;
+  font-size: 13px;
+  letter-spacing: .5px;
+}
+
+.task input:focus {
+  outline: none;
+}
+
+.task p {
+  z-index: 2;
+  color: rgb(219, 14, 219);
+  width: 15px;
+  display: flex;
+  justify-content: center;
+  margin-right: -20px;
+}
+
+.refresh {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  margin: 3px;
+  background-color: inherit;
+  border: none;
+  border-radius: 15px;
+  height: 12px;
+  width: 17px;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,112 @@
+.planner {
+  background-color: rgb(248, 209, 255);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.planner-top {
+  display: flex;
+  height: 15%;
+  justify-content: center;
+  align-items: center;
+}
+
+.planner-top h1 {
+  margin: 0 70px;
+}
+
+.planner-top button {
+  height: 27px;
+  width: 90px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.planner-top button:hover {
+  background-color: rgb(236, 130, 255);
+}
+
+.planner-outer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85%;
+}
+
+.morning, .afternoon {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.planner-inner {
+  margin: 0 20px;
+  width: 41%;
+  height: 100%;
+}
+
+.planner-section {
+  display: flex;
+  margin: 10px 0;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.planner-section p {
+  position: relative;
+  width: 32%;
+  display: flex;
+  background: rgb(243, 174, 255);
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 5px;
+  height: 22px;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.time-span {
+  position: absolute;
+  background-color: inherit;
+  height: 100%;
+  width: 5px;
+  right: 0;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  cursor: pointer;
+}
+
+.input {
+  padding: 0 5px;
+  border: 1px solid rgb(158, 158, 158);
+  background: inherit;
+  border-radius: 5px;
+  width: 61%;
+  height: 22px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: rgb(71, 71, 71);
+}
+
+.input-filled {
+  padding: 0 5px;
+  border: 1px solid rgb(158, 158, 158);
+  background: rgb(209, 209, 255);
+  border-radius: 5px;
+  width: 61%;
+  height: 22px;
+  pointer-events: none;
+}
+
+.input-filled:focus {
+  outline: none;
+  border-color: rgb(158, 158, 158);
+}

@@ -1,0 +1,12 @@
+.time {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 16%;
+  align-items: center;
+  border-bottom: 3px solid rgb(170, 170, 170);
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-family: monospace;
+  background: rgb(209, 209, 255);
+}
